@@ -1,0 +1,152 @@
+header {
+    padding-top: 0;
+}
+
+.header-1 .logo {
+    margin-top: 5px;
+}
+
+header .navbar li a {
+    padding: 6px 0px;
+}
+
+.nav-right {
+    margin-top: 6px;
+}
+
+.special-offers2 {
+    margin-top: 0;
+}
+
+#content .text-right a {
+    display: inline-block;
+}
+
+#content .top-shop-feature .text-right article {
+    margin-right: 130px;
+}
+
+#content .top-shop-feature .text-left article {
+    margin-left: 130px;
+}
+
+#content .top-shop-feature article {
+    max-width: none;
+    display: block;
+    margin: 0;
+    margin-bottom: 40px;
+    min-height: min-content;
+}
+
+#wrap .special-offers2 {
+    margin-top: 60px;
+}
+
+footer {
+    padding: 60px 0;
+}
+
+.rights {
+    margin-top: 30px;
+}
+
+#content .heading {
+    margin-bottom: 60px;
+}
+
+.scroll {
+    margin-top: 20px;
+}
+
+.rights .go-up {
+    border: 1px solid #454545;
+    color: #949494;
+    height: 30px;
+    width: 30px;
+    float: none;
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+}
+
+/* my cart table start */
+
+.shopping-cart .quinty .bootstrap-select .btn {
+    min-width: 50px;
+}
+
+.mycart_table {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.mycart_table table {
+    margin-bottom: 0;
+}
+
+.mycart_table .table>tbody>tr>td {
+    border-top: 0;
+}
+
+.mycart_table .btn-group.open .dropdown-toggle, .mycart_table .btn-group .dropdown-toggle {
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.mycart_table .dropdown-backdrop {
+    display: none;
+}
+
+.mycart_table .dropdown-menu.open {
+    /* position: relative; */
+    overflow: visible !important;
+}
+
+.mycart_table.mobile, .grand_total_mobile {
+    display: none;
+}
+
+.mycart_table.mobile .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: auto;
+    min-width: 60px;
+}
+
+@media (max-width:991px) {
+    .mycart_desktop {
+        display: none;
+    }
+    .mycart_table.mobile, .grand_total_mobile {
+        display: block;
+    }
+    section.mobile_cart{
+        overflow: visible;
+    }
+}
+@media (max-width:480px) {
+    .text_right{
+        text-align: right;
+    }
+    .mycart_table.mobile .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        float: none;
+    }
+    .text_center{
+        text-align: center;
+    }
+    .qty{
+        padding-right: 50px;
+    }
+    .col-xs-4.w-50{
+        width: 50%;
+    }
+    .col-xs-4.w-100{
+        width: 100%;
+    }
+}
+/* my cart table end */
+/* helper class */
+.mt-0{
+    margin-top: 0;
+}
+/* helper class */
